@@ -1,0 +1,2 @@
+# Copy to mongodb_uri (git-ignored); one line holding your MongoDB connection string.
+mongodb+srv://<user>:<password>@<cluster-host>/

@@ -1,0 +1,8 @@
+# Python 3.12+. Versions used for the paper.
+numpy==2.5.2
+scipy==1.18.0
+scikit-learn==1.9.0
+wfdb==4.3.1
+neurokit2==0.3.0
+onnxruntime==1.32.0
+torch==2.11.0        # training / evaluation only; the server worker needs numpy, scipy and onnxruntime

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generated data and results
+agenet/cache/
+agenet/cache_*/
+agenet/results/
+physionet/
+*.log
+
+# Build outputs
+server/gateway/gateway
+server/gateway/gateway-*
+*.exe
+firmware/.pio/
+
+# Secrets and local configuration (never commit)
+firmware/include/secrets.h
+server/config/device_key.env
+server/config/mongodb_uri
+*.pem
+*.key
+*.crt
+.env
+*.env
+!*.env.example
